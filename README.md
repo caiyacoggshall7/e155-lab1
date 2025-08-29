@@ -1,0 +1,5 @@
+# E155 Lab 1
+
+This repository includes code to verify the proper assembly of the E155 development board and operation of the MCU and FPGA.
+
+This repository was set up using the tutorial on the E155 Website.
