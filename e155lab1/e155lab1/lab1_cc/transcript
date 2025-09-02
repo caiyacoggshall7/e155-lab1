@@ -1,0 +1,69 @@
+# Reading pref.tcl
+# //  Questa Lattice OEM Edition-64
+# //  Version 2024.2 win64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading project simseven2
+# Compile of seven_seg_testbench.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.seven_seg_testbench -t ns -voptargs=+acc -L iCE40UP -Lf iCE40UP
+# vsim -gui work.seven_seg_testbench -t ns -voptargs="+acc" -L iCE40UP -Lf iCE40UP 
+# Start time: 22:29:52 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.seven_seg_testbench(fast)
+# Loading work.seven_seg_display(fast)
+add wave -position end  sim:/seven_seg_testbench/segexpected
+add wave -position end  sim:/seven_seg_testbench/seg
+add wave -position end  sim:/seven_seg_testbench/s
+add wave -position end  sim:/seven_seg_testbench/clk
+run 200
+# Causality operation skipped due to absence of debug database file
+# Compile of seven_seg_testbench.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.seven_seg_testbench(fast)
+# Loading work.seven_seg_display(fast)
+run 200
+run 1000
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.seven_seg_testbench(fast)
+# Loading work.seven_seg_display(fast)
+# Compile of seven_seg_testbench.sv was successful.
+# Compile of seven_seg_display.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.seven_seg_testbench(fast)
+# Loading work.seven_seg_display(fast)
+run 200
+#         16 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/seven_seg_testbench.sv(83)
+#    Time: 175 ns  Iteration: 1  Instance: /seven_seg_testbench
+# Break in Module seven_seg_testbench at C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/seven_seg_testbench.sv line 83

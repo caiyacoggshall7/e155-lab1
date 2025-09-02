@@ -1,0 +1,63 @@
+#Start recording tcl command: 8/31/2025 18:49:51
+#Project Location: C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc; Project name: lab1_cc
+prj_open "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/lab1_cc.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/lab1_testbench.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_disable_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/lab1_testbench.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/seven_seg_testbench.sv"
+prj_disable_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/seven_seg_testbench.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/sim2/sim2.spf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_remove_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/sim2/sim2.spf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/sim2/sim2.spf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/sim3/sim3.spf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/newsim_sorin/newsim_sorin.spf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/sim4/sim4.spf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/sim5/sim5.spf"
+prj_remove_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/newsim_sorin/newsim_sorin.spf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/1/2025 01:56:55

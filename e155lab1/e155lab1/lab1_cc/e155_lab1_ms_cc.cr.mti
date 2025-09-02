@@ -1,0 +1,15 @@
+C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/seven_seg_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/seven_seg_testbench.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module seven_seg_testbench
+
+Top level modules:
+	seven_seg_testbench
+
+} {} {}} C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/seven_seg_display.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/seven_seg_display.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module seven_seg_display
+
+Top level modules:
+	seven_seg_display
+
+} {} {}}

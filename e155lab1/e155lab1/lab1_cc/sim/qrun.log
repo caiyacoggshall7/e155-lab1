@@ -1,0 +1,75 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   2
+#   Totals: Errors:   0, Warnings:   2
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run 100 ns" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 11:51:38 on Sep 01,2025
+# Loading sv_std.std
+# Loading work.lab1_testbench(fast)
+# Loading work.lab1_cc(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.seven_seg_display(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run 100 ns
+# Error: inputs = xxxx
+# Outputs = xxx 1111111 (xxx xxxxxxx expected)
+run 10000
+# Causality operation skipped due to absence of debug database file
+run 1000000000
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+restart -f
+# Loading work.lab1_testbench(fast)
+# Loading work.lab1_cc(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.seven_seg_display(fast)
+run 100000
+# Error: inputs = xxxx
+# Outputs = xxx 1111111 (xxx xxxxxxx expected)
+restart -f
+# Loading work.lab1_testbench(fast)
+# Loading work.lab1_cc(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.seven_seg_display(fast)
+reset 1
+# Invalid parameter(s)
+# RESET { SESSION }
+force reset 1
+force reset 0
+run 1000000000
+# Error: inputs = xxxx
+# Outputs = xxx 1111111 (xxx xxxxxxx expected)
+#         16 tests completed with          1 errors
+# ** Note: $stop    : C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/lab1_testbench.sv(83)
+#    Time: 312480 ps  Iteration: 1  Instance: /lab1_testbench
+# Break in Module lab1_testbench at C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/lab1_testbench.sv line 83
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   2
+#   Totals: Errors:   0, Warnings:   2
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run 100 ns" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 22:10:12 on Sep 01,2025
+# Loading sv_std.std
+# Loading work.lab1_testbench(fast)
+# Loading work.lab1_cc(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.seven_seg_display(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ccoggshall  Hostname: FGMZ0R3  ProcessID: 13260
+#           Attempting to use alternate WLF file "./wlftvvhc0d".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvvhc0d
+# run 100 ns
+#         16 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/lab1_testbench.sv(83)
+#    Time: 175 ps  Iteration: 1  Instance: /lab1_testbench
+# Break in Module lab1_testbench at C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/source/impl_1/lab1_testbench.sv line 83
+# Causality operation skipped due to absence of debug database file

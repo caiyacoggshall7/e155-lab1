@@ -1,0 +1,13 @@
+#Start recording tcl command: 9/1/2025 11:30:57
+#Project Location: C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc; Project name: lab1_cc
+prj_open "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/lab1_cc.rdf"
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/sim6/sim6.spf"
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/pinplanner.pdc"
+prj_enable_source "C:/Users/ccoggshall/Desktop/e155lab1/e155lab1/lab1_cc/pinplanner.pdc"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/1/2025 12:25:30
