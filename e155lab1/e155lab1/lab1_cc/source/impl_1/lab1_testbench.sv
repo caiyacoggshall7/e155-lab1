@@ -20,7 +20,7 @@ lab1_cc dut(reset, s, led, seg);
 //generating clock
 //always
 	//begin 
-		  set clock with period of 10 time units, high(1) for 5 and low(0) for 5
+		 // set clock with period of 10 time units, high(1) for 5 and low(0) for 5
 		//clk=1; #5;
 		//clk=0; #5;
 		
@@ -28,7 +28,8 @@ lab1_cc dut(reset, s, led, seg);
 
 	//extract clock from lab1_cc module (thank you vikram + google)
 	assign clk = dut.clk;
-//initial only used in TB simulation
+
+//initial only used in TB simulation
 initial
 	begin
 		// load in vectors stored as binary digits
@@ -86,3 +87,4 @@ always @(negedge clk)
 
 endmodule
 			
+
